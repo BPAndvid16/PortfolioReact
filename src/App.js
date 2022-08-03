@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import {NavigationBar} from './components/NavigationBar';
-import {Banner} from './components/LandingPage/Banner';
-import {Skills} from './components/LandingPage/Skills';
-import {Land} from './components/LandingPage/Land';
-import {Photography} from './components/Photography/Photography';
+import {NavigationBar} from './js/NavigationBar';
+import {Banner} from './js/LandingPage/Banner';
+import {Skills} from './js/LandingPage/Skills';
+import {Land} from './js/LandingPage/Land';
+import {Photography} from './js/Photography/Photography';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Traveling } from './components/Photography/Traveling';
-import { Animals } from './components/Photography/Animals';
-import { Portrait } from './components/Photography/Portrait';
-import { Footer } from './components/Footer';
-import { Videography } from './components/Photography/Videography';
+import { Traveling } from './js/Photography/Traveling';
+import { Animals } from './js/Photography/Animals';
+import { Portrait } from './js/Photography/Portrait';
+import { Footer } from './js/Footer';
+import { Videography } from './js/Photography/Videography';
 
 import{
   BrowserRouter as Router,

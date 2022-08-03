@@ -10,6 +10,7 @@ import { Traveling } from './components/Photography/Traveling';
 import { Animals } from './components/Photography/Animals';
 import { Portrait } from './components/Photography/Portrait';
 import { Footer } from './components/Footer';
+import { Videography } from './components/Photography/Videography';
 
 import{
   BrowserRouter as Router,
@@ -37,6 +38,7 @@ function App() {
         <Route path="/Traveling" element = {<Traveling/>}/>
         <Route path="/Animals" element = {<Animals/>}/>
         <Route path="/Portrait" element = {<Portrait/>}/>
+        <Route path="/Videography" element = {<Videography/>}/>
         
         
         </Routes>

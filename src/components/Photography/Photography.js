@@ -41,7 +41,7 @@ import logoYou from '../../assets/img/YouTube.gif'
         },
 
         {
-            title: "Youtube",
+            title: "Por el Camino",
             description: "Vlog",
             imgUrl: logoYou,
         }

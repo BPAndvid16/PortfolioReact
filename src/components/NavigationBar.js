@@ -57,7 +57,7 @@ export const NavigationBar = () => {
                 <a href='https://www.instagram.com/andvid16/'> <img src={logoIns} alt='@andvid16'/> </a>
                 <a href='https://www.youtube.com/channel/UCZSWKATEtLMsevekdnuiMdA'> <img src={logoYou} alt='Por el camino youtube chanel'/> </a>
             </div>
-            <button className='vvd' onClick={()=>console.log('connect')}><span>Let's Connect</span></button>
+            <a href='https://www.linkedin.com/in/andres-david-silva-naranjo-065391218/'><button  className='vvd' onClick={()=>console.log('connect')}><span>Let's Connect</span></button></a>
           </span> 
 
         </Navbar.Collapse>

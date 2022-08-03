@@ -59,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Andres David Silva Naranjo</span>
                 <h1>{`Biomedical Engineer`} <span className="txt-rotate" dataPeriod="100" data-rotate='["Web Developer", "Web Designer", "Application Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p>Experience and knoledge in Front-End web development using Frameworks like ReactJs and libraries like Bootstrap and Materialize, generating responsive and well designed websites. Also I have knowledge in Phyton, Java and C++ languages using for Back-End development.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={40} /></button>
+                  <a href="https://www.linkedin.com/in/andres-david-silva-naranjo-065391218/"><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={40} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
